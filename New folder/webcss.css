@@ -1,0 +1,147 @@
+body{
+    background-image: url(quiz3.jpg);
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: scroll ;
+    font-family: 'Times New Roman', Times, serif;
+   
+    font-size: 30px;
+    color: black;
+}
+
+p{
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 10pt;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0;
+    height: 70px;
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.container{
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+    display: none;
+}
+
+.name{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    height: 160px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: ce;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    border-radius: 20px;
+    
+}
+
+#bt1{
+    padding: 10px;;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom:20px;
+    width: 20%;
+    margin-left:0%;
+    margin-bottom:-7%;
+
+}
+
+#main{
+    margin-left: 405px;
+}
+
+#time{
+    font-size: 30px;
+}
+
+.fir{
+    height:25%;
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+    margin:auto;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-top:auto;
+    background-color: black;
+}
+
+
+#tok{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: -auto;
+}
+
+#tuk{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+
+}
+  
+#tik{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+

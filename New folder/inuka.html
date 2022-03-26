@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\WEB quiz\New folder\webcss.css">
+    
+    <title>The Quiz</title>
+
+</head>
+
+<body>
+    
+    <div class="fir">
+        <div class="navbar">
+            <img src="img.jpg" class="logo" width="75px" height="75px>
+
+             <ul id="tuk">
+                <li id="tok"><a id="tik" href="#">Home</a></li>
+                <li id="tok"><a id="tik" href="#">Explore</a></li>
+                <li id="tok"><a id="tik" href="#">Buy Instruments</a></li>
+                <li id="tok"><a id="tik" href="#">Buy Music</a></li>
+                <li id="tok"><a id="tik" href="#">Site Map</a></li>
+                <li id="tok"i><a id="tik" href="C:\Users\HP\Desktop\WEB quiz\New folder\inuka.html">Take a Quiz</a></li>
+                <li id="tok"><a id="tik" href="C:\Users\HP\Desktop\WEB quiz\studentdetails\details.html">Student Details</a></li>
+            </ul>
+    
+        </div>
+    <div>
+
+    
+    
+
+    <h1>QUIZ</h1>
+    <span class="name" id="checkList">
+        <ul>
+            <li>You have to answer for 10 quiestions.</li>
+            <li>You have to answer for 10 quiestions.</li>
+            <li>You will get 2 marks for each correct answer.</li>
+        </ul>
+    </span>
+
+    <div>
+        <input type="button" value="Start" id="bt1" onclick="quizeli(); openquiz(); start(); ">
+    </div>
+    
+
+    <div style="display:none;" id="main">
+        <span id="count">60</span> seconds
+    
+        
+        
+
+        <div class="container">
+            Q1. Which percussion instrument is named after its shape?<hr>
+        
+            <input type="radio" name="question1" >Circle<br>
+            <input type="radio" name="question1" >Square<br>
+            <input type="radio" name="question1" id="correct1">Triangle<br>
+            <input type="radio" name="question1" >Hexagon<br>
+        
+            <button class="next" onclick="next(1)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q2.  How many strings does a violin have?<hr>
+        
+            <input type="radio" name="question2" >5<br>
+            <input type="radio" name="question2" id="correct2">4<br>
+            <input type="radio" name="question2" >7<br>
+            <input type="radio" name="question2" >6<br>
+        
+            <button class="next" onclick="next(2)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q3. How many Keys that standard piano have?<hr>
+        
+            <input type="radio" name="question3" >100<br>
+            <input type="radio" name="question3" >110<br>
+            <input type="radio" name="question3" id="correct3">101<br>
+            <input type="radio" name="question3" >104<br>
+        
+            <button class="next" onclick="next(3)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q4. Which Disney film features the song “Circle of life”?<hr>
+        
+            <input type="radio" name="question4" >Aladdin<br>
+            <input type="radio" name="question4" id="correct4">The Lion King<br>
+            <input type="radio" name="question4" > Moana<br>
+            <input type="radio" name="question4" >Toy Store<br>
+        
+            <button class="next" onclick="next(4)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q5. Which of these is a famous work by Mozart?<hr>
+        
+            <input type="radio" name="question5" id="correct5">The Magic Flute<br>
+            <input type="radio" name="question5" >The Magic Trumpet<br>
+            <input type="radio" name="question5" >The Magic Violin<br>
+            <input type="radio" name="question5" >The Magic Piano<br>
+        
+            <button class="next" onclick="next(5)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q6. Which of these string Instrument is the largest?<hr>
+        
+            <input type="radio" name="question6" >Cello<br>
+            <input type="radio" name="question6" >Viola<br>
+            <input type="radio" name="question6" id="correct6">Double Bass<br>
+            <input type="radio" name="question6" >Violin<br>
+        
+            <button class="next" onclick="next(6)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q7. Which animal completes the title of this famous work by Prokofiev: Peter and the ____.
+            <hr>
+        
+            <input type="radio" name="question7" id="correct7">Rabbit<br>
+            <input type="radio" name="question7" >Deer<br>
+            <input type="radio" name="question7" >Frog<br>
+            <input type="radio" name="question7" >Wolf<br>
+        
+            <button class="next" onclick="next(7)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q8. Which film features the song “Let It Go”?<hr>
+        
+            <input type="radio" name="question8" >Tangled<br>
+            <input type="radio" name="question8" id="correct8">Frozen<br>
+            <input type="radio" name="question8" >Moana<br>
+            <input type="radio" name="question8" >The Lion King<br>
+        
+            <button class="next" onclick="next(8)">Next</button>
+        </div>
+    
+        <div class="container">
+            Q9. What Is a small flute Called?<hr>
+        
+            <input type="radio" name="question9" >Flutolo<br>
+            <input type="radio" name="question9" >Rucolo <br>
+            <input type="radio" name="question9" >Manolo<br>
+            <input type="radio" name="question9" id="correct9">Piccolo <br>
+        
+            <button class="next" onclick="next(9)">Next</button>
+        </div>
+    
+        <div class="container" id="col2">
+            Q10. How many strings does a regular guitar have?<hr>
+        
+            <input type="radio" name="question10" >4<br>
+            <input type="radio" name="question10">5<br>
+            <input type="radio" name="question10"id="correct10">6<br>
+            <input type="radio" name="question10" >7<br>
+        
+            <button class="next" onclick="result()">End The Quiz</button>
+
+            <div class = "sas">
+                <h5 id = "total"> </h5>
+            </div>
+            <br>
+            <div class = "wro">
+                <h5 id = "tot"> </h5>
+            </div>
+        
+
+       
+    
+    </div>
+<script>
+
+    document.getElementsByClassName('container')[0].style.display="block";
+
+function next(id){
+    document.getElementsByClassName('container')[id-1].style.display="none";
+    document.getElementsByClassName('container')[id].style.display="block";
+}
+function result()
+{
+    var score=0;
+    var wrong=0;
+    var out = document.getElementById('total');
+    if (document.getElementById('correct1').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+    
+
+    if (document.getElementById('correct2').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct3').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct4').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct5').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct6').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct7').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct8').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+
+    if (document.getElementById('correct9').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+    
+
+    if (document.getElementById('correct10').checked)
+    {
+        score=score+2;
+    }
+    else{wrong++;
+    }
+
+document.getElementById("total").innerHTML = ("Your Marks :" +score);
+
+if(score>8){
+    document.getElementById("col2").style.backgroundColor = "#00ff00"; 
+}
+else{
+    document.getElementById("col2").style.backgroundColor = "#ff0000"; 
+}
+
+document.getElementById("tot").innerHTML = ("No of Incorrect:" +wrong );
+}
+function openquiz() {
+    document.getElementById('main').style.display = "block";
+}
+
+
+
+function quizeli(){
+    var div = document.getElementById('checkList');
+    div.remove();
+}
+
+function startTimer(){
+  var counter = 60;
+  setInterval(function() {
+    counter--;
+    if (counter >= 0) {
+      span = document.getElementById("count");
+      span.innerHTML = counter;
+    }
+    if (counter === 0) {
+        alert('sorry, out of time');
+        clearInterval(counter);
+    }
+  }, 1000);
+}
+function start()
+{
+    document.getElementById("count").style="color:green;";
+    startTimer();
+};
+
+</script>
+
+<div class="footer">
+    <a href="C:\Users\HP\Desktop\WEB quiz\personal details\personal.html">Page Editer-Inuka Perera</a>
+</div>
+
+
+</body>
+
+</html>
